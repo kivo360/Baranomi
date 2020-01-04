@@ -1,0 +1,46 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+ccxt = "*"
+fastapi = "*"
+uvicorn = "*"
+loguru = "*"
+pyportfolioopt = "*"
+app = {editable = true, path = "."}
+funpicker = "*"
+funtime = "*"
+empyrical = "*"
+requests-futures = "*"
+toolz = "*"
+cloudpickle = "*"
+numpy = "*"
+scipy = "*"
+pandas = "*"
+redis = "*"
+fsspec = "*"
+trading-replay = "*"
+rolling = "*"
+maya = "*"
+email-validator = "*"
+dask = "*"
+pebble = "*"
+cytoolz = "*"
+jamboree = "*"
+mlfinlab = "*"
+faust = {extras = ["fast"], version = "*"}
+nest-asyncio = "*"
+patman = "*"
+linkkt-hand = {editable = true, path = "."}
+jupyter = "*"
+"m3u8" = "*"
+linkkt-api = {editable = true, path = "."}
+bpirate = {editable = true, path = "."}
+baranomi = {editable = true, path = "."}
+
+[dev-packages]
+
+[requires]
+python_version = "3.6"
